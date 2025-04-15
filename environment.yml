@@ -1,0 +1,17 @@
+name: audprojekt2025
+channels:
+- conda-forge
+- defaults
+dependencies:
+- pip
+- ipykernel
+- numpy
+- matplotlib
+- pandas
+- scipy
+- scikit-learn
+- networkx
+- numba
+- pygraphviz
+- pip:
+  - python-tsp
